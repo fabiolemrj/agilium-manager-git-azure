@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agilium-manager-git-azure.WebTeste", "agilium-manager-git-azure.WebTeste\agilium-manager-git-azure.WebTeste.csproj", "{F5689AFA-7BEE-4D95-934E-057308D4C10F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agilium-manager-git-azure.WebTeste", "agilium-manager-git-azure.WebTeste\agilium-manager-git-azure.WebTeste.csproj", "{F5689AFA-7BEE-4D95-934E-057308D4C10F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agilium-manager-azure-api", "agilium-manager-azure-api\agilium-manager-azure-api.csproj", "{CC39EF02-5480-4B78-8E42-7726714726BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agilium-manager-azure-business", "agilium-manager-azure-business\agilium-manager-azure-business.csproj", "{9F4FE7FF-D400-4644-81EC-0DEE06C60A98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agilium-manager-git-azure-infra", "agilium-manager-git-azure-infra\agilium-manager-git-azure-infra.csproj", "{9C1DF3D3-A74E-4EA9-ABDB-331C1FFB949C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +21,23 @@ Global
 		{F5689AFA-7BEE-4D95-934E-057308D4C10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5689AFA-7BEE-4D95-934E-057308D4C10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5689AFA-7BEE-4D95-934E-057308D4C10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC39EF02-5480-4B78-8E42-7726714726BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC39EF02-5480-4B78-8E42-7726714726BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC39EF02-5480-4B78-8E42-7726714726BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC39EF02-5480-4B78-8E42-7726714726BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4FE7FF-D400-4644-81EC-0DEE06C60A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4FE7FF-D400-4644-81EC-0DEE06C60A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4FE7FF-D400-4644-81EC-0DEE06C60A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4FE7FF-D400-4644-81EC-0DEE06C60A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1DF3D3-A74E-4EA9-ABDB-331C1FFB949C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1DF3D3-A74E-4EA9-ABDB-331C1FFB949C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1DF3D3-A74E-4EA9-ABDB-331C1FFB949C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1DF3D3-A74E-4EA9-ABDB-331C1FFB949C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBD96D02-6C36-42F0-9811-7EDF12267B3F}
 	EndGlobalSection
 EndGlobal
