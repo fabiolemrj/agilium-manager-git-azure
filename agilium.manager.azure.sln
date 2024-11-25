@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agilium-manager-azure-busin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agilium-manager-git-azure-infra", "agilium-manager-git-azure-infra\agilium-manager-git-azure-infra.csproj", "{9C1DF3D3-A74E-4EA9-ABDB-331C1FFB949C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agilium-manager-azure-web", "agilium-manager-azure-web\agilium-manager-azure-web.csproj", "{60A4D6D2-3C3A-4CA7-A338-CF2798B49832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agilium-manager-azure-web", "agilium-manager-azure-web\agilium-manager-azure-web.csproj", "{60A4D6D2-3C3A-4CA7-A338-CF2798B49832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agilium-pdv-azure-api", "agilium-pdv-azure-api\agilium-pdv-azure-api.csproj", "{B71084AC-F544-4042-93D7-13C06D515B6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{60A4D6D2-3C3A-4CA7-A338-CF2798B49832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60A4D6D2-3C3A-4CA7-A338-CF2798B49832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60A4D6D2-3C3A-4CA7-A338-CF2798B49832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71084AC-F544-4042-93D7-13C06D515B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71084AC-F544-4042-93D7-13C06D515B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71084AC-F544-4042-93D7-13C06D515B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71084AC-F544-4042-93D7-13C06D515B6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
