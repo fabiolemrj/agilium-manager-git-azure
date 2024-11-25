@@ -66,7 +66,7 @@ namespace agilium.webapp.manager.mvc
             services.AddRazorPages();
             services.AddMvcConfiguration(Configuration);
             services.RegisterServices(Configuration);
-            services.AddApiVersioning();
+            //services.AddApiVersioning();
             services.AddDistributedMemoryCache();
 
             services.AddSession(options =>
